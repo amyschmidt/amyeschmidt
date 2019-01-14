@@ -1,0 +1,33 @@
+@import 'scss/mixins/desktop';
+@import 'scss/variables/colors';
+@import 'scss/variables/fonts';
+
+.landingPageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 25px;
+
+  a {
+    margin: 5px;
+  }
+  
+  .hero {
+    background: url(assets/amy.jpg) center no-repeat;
+    background-size: cover;
+    background-position: 50px 0px center;
+    width: 100%;
+    position: relative;
+    height: 95vh;
+    z-index: -1000;
+    margin-bottom: 20px;
+  }
+
+  .jumbotron {
+    background-color: white;
+  }
+}
+
+
