@@ -1,0 +1,48 @@
+@import 'scss/mixins/desktop';
+@import 'scss/variables/colors';
+@import 'scss/variables/fonts';
+
+.pageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 25px;
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .projectsContainer {
+      display: flex;
+      margin-top: 20px;
+      padding-bottom: 80px;
+
+      @media (max-width: 550px) {
+        display: block;
+        text-align: center;
+      }
+      
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+
