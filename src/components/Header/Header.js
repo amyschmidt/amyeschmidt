@@ -33,7 +33,7 @@ export default class Header extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/projects">Projects</NavLink>
+                <NavLink href="amyeschmidt.com/projects">Projects</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://www.linkedin.com/in/amyschmidt1/" target="_blank">LinkedIn</NavLink>
