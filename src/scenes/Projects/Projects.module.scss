@@ -2,6 +2,10 @@
 @import 'scss/variables/colors';
 @import 'scss/variables/fonts';
 
+.content {
+  text-align: center;
+}
+
 .pageContainer {
   display: flex;
   flex-wrap: wrap;
@@ -28,10 +32,14 @@
       text-align: center;
     }
 
-    .projectsContainer {
+    .projectContainer {
       display: flex;
       margin-top: 20px;
       padding-bottom: 80px;
+
+      .details {
+        min-width: 250px;
+      }
 
       @media (max-width: 550px) {
         display: block;
