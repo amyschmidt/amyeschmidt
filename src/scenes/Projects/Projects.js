@@ -9,6 +9,7 @@ class Projects extends React.Component {
     return (
       <div className={styles.content}>
         <h1>Featured Projects</h1>
+        <p>Some projects I've worked on recently.</p>
         <div className={styles.pageContainer}>
           <div className={styles.projects}>
             <h2><a href="https://trunkclub.com">Trunk Club</a></h2>
