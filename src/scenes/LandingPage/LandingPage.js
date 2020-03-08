@@ -18,7 +18,7 @@ class LandingPage extends React.Component {
           <hr className="my-2" />
           <p>You can also find me on social media.</p>
           <div><a href="https://twitter.com/ammmye" target="_blank" rel="noopener noreferrer">@ammmye on Twitter</a></div>
-          <div><a href="https://www.instagram.com/amyeschmidt/" target="_blank" rel="noopener noreferrer">@amyeschmidt on Instagram</a></div>
+          <div><a href="https://www.instagram.com/technicallyblond/" target="_blank" rel="noopener noreferrer">@technicallyblond on Instagram</a></div>
         </Jumbotron>
       </div>
     )
