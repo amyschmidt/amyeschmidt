@@ -1,6 +1,6 @@
 import React from 'react'
-import PageHeader from 'components/PageHeader'
-import PageDescription from 'components/PageDescription'
+import PageHeader from '../PageHeader'
+import PageDescription from '../PageDescription'
 import styles from './NotFoundPage.module.scss'
 
 const NotFoundPage = () => (

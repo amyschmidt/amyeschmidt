@@ -1,8 +1,8 @@
 import React from 'react'
-import { Switch, Route } from 'react-router'
-import Header from 'components/Header'
-import LandingPage from 'scenes/LandingPage'
-import NotFoundPage from 'components/NotFoundPage'
+import { Switch, Route } from 'react-router-dom'
+import Header from '../../components/Header'
+import LandingPage from '../LandingPage'
+import NotFoundPage from '../../components/NotFoundPage'
 
 class App extends React.Component {
   render() {
